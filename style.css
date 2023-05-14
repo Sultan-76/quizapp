@@ -24,3 +24,55 @@ body {
     align-items: center;
     border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
+
+.card-title {
+    min-height: 58px;
+}
+
+.answer-card {
+    font-size: 0.8rem;
+}
+
+.answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.answer-card h6 {
+    font-size: 0.8rem;
+}
+
+.bg-success, 
+.bg-danger {
+    color: white !important;
+}
+
+.game-end-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 8px;
+}
+
+.like {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.like img {
+    border-radius: 50%;
+    width: 55px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0;
+}

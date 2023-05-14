@@ -27,39 +27,72 @@
         </div>
     </nav>
     <div class="quize-container center">
-        <div class="card" style="width: 25rem;">
-            <img src="img/1.png" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title" id="quastion-text">Willkommen zu unserem Quiz</h5>
-                
-                <div class="card mb-2">
+        <div class="card" style="width: 22rem;">
+            <img id="quastion-img" src="img/1.png" class="card-img-top">
+            <img id="end-img" src="img/17.png" class="card-img-top" style="display: none;">
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated"
+                    style="width: 0%">75%</div>
+            </div>
+            <div class="cart-body" id="end-screan" style="display: none;">
+                <div class="text-center">
+                    <h5>⭐️ ⭐️ Quiz beendet! ⭐️ ⭐️</h5>
+                </div>
+                <div class="text-center mb-2">Du hast von <b id="number">xxx</b> Fragen</div>
+                <div class="game-end-info mb-2">
+                    <div class="like">
+                        <img src="img/20.png" alt="">
+                    </div>
+                    <div><b id="correct-answer">xXx</b> Richtig Beantwortet!</div>
+                </div>
+                <div class="game-end-info mb-2">
+                    <div class="like">
+                        <img src="img/19.png" alt="">
+                    </div>
+                    <div><b id="false-answer">xXx</b> Falasch Beantwortet!</div>
+                </div>
+                <div class="button-contain">
+                    <button class="btn btn-primary" id="resstart" onclick="restartGame()">Erneut Spielen</button>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="card-body" id="question-body">
+                <h6 class="card-title" id="quastion-text">Willkommen zu unserem Quiz</h6>
+
+                <div class="card answer-card mb-2" onclick="answer('answer-1')">
                     <div class="card-body" id="answer-1">
-                      Antwort
+                        Antwort
                     </div>
                 </div>
 
-                <div class="card mb-2">
+                <div class="card answer-card mb-2" onclick="answer('answer-2')">
                     <div class="card-body" id="answer-2">
-                      Antwort
+                        Antwort
                     </div>
                 </div>
 
-                <div class="card mb-2">
+                <div class="card answer-card mb-2" onclick="answer('answer-3')">
                     <div class="card-body" id="answer-3">
-                      Antwort
+                        Antwort
                     </div>
                 </div>
 
-                <div class="card mb-2">
+                <div class="card answer-card mb-2" onclick="answer('answer-4')">
                     <div class="card-body" id="answer-4">
-                      Antwort
+                        Antwort
                     </div>
                 </div>
 
                 <div class="question-footer">
-                   <div><b>1</b> von <b id="progress">5</b> Fragen</div>
+                    <div><b id="question-number">1</b> von <b id="progress">5</b> Fragen</div>
 
-                    <button class="btn btn-primary">Nächste Frage</button>
+                    <button class="btn btn-primary" disabled id="next-button" onclick="nextQuestion()">Nächste
+                        Frage</button>
                 </div>
 
             </div>

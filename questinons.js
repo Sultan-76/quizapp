@@ -1,4 +1,4 @@
-let questinons = [
+let questions = [
     {
         "question": "Welches Tag wird verwendet, um eine Überschrift in HTML zu definieren?",
         "answer_1": "&lt;header&gt;",
@@ -6,7 +6,7 @@ let questinons = [
         "answer_3": "&lt;h1&gt",
         "answer_4": "&lt;p&gt",
         "correct_answer": 3,
-        "img": "",
+        "img": "img/1.png",
     },
     {
         "question": "Wie fügt man CSS-Styles in HTML ein?",
@@ -15,7 +15,7 @@ let questinons = [
         "answer_3": "Mit dem &lt;link&gt-Tag",
         "answer_4": "&lt;css&gt-Tag",
         "correct_answer": 2,
-        "img": "",
+        "img": "img/3.png",
     },
     {
         "question": "Welche Funktion wird verwendet, um eine Nachricht in der JavaScript-Konsole auszugeben?",
@@ -24,7 +24,7 @@ let questinons = [
         "answer_3": "print()",
         "answer_4": "log()",
         "correct_answer": 1,
-        "img": "",
+        "img": "img/4.png",
     },
     {
         "question": "Welches Attribut wird verwendet, um den Hintergrund einer HTML-Seite festzulegen?",
@@ -33,7 +33,7 @@ let questinons = [
         "answer_3": "background-style",
         "answer_4": "background",
         "correct_answer": 2,
-        "img": "",
+        "img": "img/5.png",
     },
     {
         "question": "Wie bindet man eine externe JavaScript-Datei in HTML ein?",
@@ -42,7 +42,7 @@ let questinons = [
         "answer_3": "Mit dem &lt;link&gt-Tag",
         "answer_4": "Mit dem &lt;javascript&gt-Tag",
         "correct_answer": 1,
-        "img": "",
+        "img": "img/6.png",
     },
     {
         "question": "Welche Funktion wird verwendet, um den Inhalt eines HTML-Elements über JavaScript zu ändern?",
@@ -51,16 +51,16 @@ let questinons = [
         "answer_3": "changeContent()",
         "answer_4": "getElementById()",
         "correct_answer": 4,
-        "img": "",
+        "img": "img/7.png",
     },
     {
         "question": "Wie fügt man einen Kommentar in CSS ein?",
-        "answer_1": "<!-- Dies ist ein Kommentar -->",
+        "answer_1": "&lt;!-- Dies ist ein Kommentar --&gt",
         "answer_2": "// Dies ist ein Kommentar",
         "answer_3": "/* Dies ist ein Kommentar */",
         "answer_4": "# Dies ist ein Kommentar",
         "correct_answer": 3,
-        "img": "",
+        "img": "img/8.png",
     },
     {
         "question": "Welche Einheit wird in CSS verwendet, um die Breite einer Box in Relation zur Bildschirmbreite festzulegen?",
@@ -69,7 +69,7 @@ let questinons = [
         "answer_3": "vw",
         "answer_4": "%",
         "correct_answer": 3,
-        "img": "",
+        "img": "img/9.png",
     },
     {
         "question": "Welche Methode wird verwendet, um den Inhalt eines HTML-Elements mit jQuery zu ändern?",
@@ -78,7 +78,7 @@ let questinons = [
         "answer_3": "innerText()",
         "answer_4": "text()",
         "correct_answer": 4,
-        "img": "",
+        "img": "img/10.png",
     },
     {
         "question": "Wie verknüpft man ein externes CSS-Stylesheet mit einer HTML-Datei?",
@@ -87,6 +87,6 @@ let questinons = [
         "answer_3": "Mit dem &lt;css&gt-Tag",
         "answer_4": "Mit dem &lt;stylesheet&gt-Tag",
         "correct_answer": 1,
-        "img": "",
+        "img": "img/11.png",
     },
 ];
