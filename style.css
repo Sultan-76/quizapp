@@ -1,3 +1,7 @@
+
+
+
+
 body {
     margin: 0;
     
@@ -42,7 +46,7 @@ body {
     font-size: 0.8rem;
 }
 
-.bg-success, 
+.bg-success,
 .bg-danger {
     color: white !important;
 }
@@ -75,4 +79,15 @@ body {
     justify-content: center;
     align-items: center;
     margin: 18px 0;
+}
+
+@media (min-width: 375px) {
+    .card-media {
+        width: 100vw !important;
+        border-radius: 0 !important;
+    }
+
+    .quize-container{
+        background-image: none !important;
+    }
 }
